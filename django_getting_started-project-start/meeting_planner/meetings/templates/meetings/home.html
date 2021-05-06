@@ -1,0 +1,16 @@
+{% extends "base.html" %}{
+
+{% block title %}Create Meeting {{meeting.title}}{% endblock %}
+
+{% block content %}
+
+<h1>Want to create meeting</h1>
+<a href="{% url 'new' %}">Click here</a>
+
+<!-- tightly coupled-->
+<!--<a href="/">Home</a>-->
+<br />
+<!--loosely coupled using url -->
+<a href="{% url 'welcome' %}">Home</a>
+
+{% endblock %}
