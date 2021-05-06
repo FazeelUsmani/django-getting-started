@@ -1,0 +1,1 @@
+This repository consists the [Django: Getting Started by Reindert-Jan Ekker][https://app.pluralsight.com/library/courses/django-getting-started/table-of-contents] taught on pluralsight
